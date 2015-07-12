@@ -28,8 +28,7 @@ while tries != 0
       puts "nope."
       tries-=1
     end
-  elsif
-    guess.size == word_to_guess.size
+  elsif guess.size == word_to_guess.size && guess == word_to_guess
     puts "You made it."
     break
   else
